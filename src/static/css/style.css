@@ -1,0 +1,6 @@
+@import url('static/css/_font.css');
+
+:root {
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+	color: red;
+}
