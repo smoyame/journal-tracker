@@ -1,0 +1,6 @@
+<article class="card" :id="entry.name">
+	<header>
+		<h2>
+			<slot webc:nokeep @text="title">Example Title</slot>
+		</h2>
+</article>
