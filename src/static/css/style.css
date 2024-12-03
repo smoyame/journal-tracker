@@ -64,6 +64,9 @@ img {
 	transition: all 200ms ease;
 }
 
+body {
+	background: var(--clr-brown);
+}
 
 [data-quality] {
 	accent-color: var(--_clr-quality, blue);
@@ -98,15 +101,16 @@ img {
 /* Base or Globals */
 
 .wrapper {
-	margin: 2rem auto;
-	max-width: 160ch;
+	margin: 2rem 20%;
+	background-color: var(--clr-bright);
+	padding: 2rem;
 }
 
 
 /* Components */
 
 .section-gallery {
-	background: var(--clr-brown);
+	background: var(--clr-tan);
 	padding: 1.5rem;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
