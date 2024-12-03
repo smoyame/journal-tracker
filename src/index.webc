@@ -3,9 +3,12 @@ layout: layout.webc
 ---
 <form class="form journal" method="POST">
 	<div webc:nokeep webc:for="section of ['freshwater', 'saltwater', 'misc']">
-		<fieldset :id="section">
-			<card webc:for="entry of journal[section]" :@title="entry.title" :name="entry.name"
-				@attributes="({ source: `static/images/journal/${entry.section}/${entry.name}.png`})"></card>
+		<fieldset class="journal-section" :id="section">
+			<h2 class="section-header" @text="section"></h2>
+			<div class="section-gallery">
+				<card webc:for="entry of journal[section]" :@title="entry.title" :name="entry.name"
+					@attributes="({ source: `static/images/journal/${entry.section}/${entry.name}.png`})"></card>
+			</div>
 		</fieldset>
 	</div>
 </form>
