@@ -63,3 +63,34 @@ img {
 
 	transition: all 200ms ease;
 }
+
+
+[data-quality] {
+	accent-color: var(--_clr-quality, blue);
+}
+
+[data-quality="normal"],
+[data-quality="shining"] {
+	--_clr-quality: var(--clr-tan);
+	accent-color: var(--_clr-quality);
+}
+
+[data-quality="glistening"] {
+	--_clr-quality: var(--clr-silver);
+	accent-color: var(--_clr-quality);
+}
+
+[data-quality="opulent"] {
+	--_clr-quality: var(--clr-teal);
+	accent-color: var(--_clr-quality);
+}
+
+[data-quality="radiant"] {
+	--_clr-quality: var(--clr-yellow);
+	accent-color: var(--_clr-quality);
+}
+
+[data-quality="alpha"] {
+	--_clr-quality: var(--clr-red);
+	accent-color: var(--_clr-quality);
+}
