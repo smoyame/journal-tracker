@@ -115,6 +115,10 @@ body {
 
 /* Base or Globals */
 
+[class$="-heading"] {
+	line-height: 1.1;
+}
+
 .site-header {
 	margin-bottom: 2rem;
 }

@@ -28,7 +28,7 @@ const title = `Webfishing | Journal Tracker (v${gameVersion})`
 <body>
 	<div class="wrapper">
 		<header class="site-header">
-			<h1 class="site-title">Webfishing Journal Tracker</h1>
+			<h1 class="site-title site-heading">Webfishing Journal&nbsp;Tracker</h1>
 		</header>
 		<div @raw="content" class="journal"></div>
 	</div>
