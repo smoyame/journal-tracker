@@ -11,10 +11,8 @@ const title = `Webfishing | Journal Tracker (v${gameVersion})`
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<meta name="description" :content="desc">
 	<meta name="keywords" content="webfishing, journal, tracker, quality, tier, completion">
-
 
 	<meta property="og:title" :content="title">
 	<meta property="og:type" content="" webc:nokeep>
