@@ -38,6 +38,10 @@ img {
 	shape-margin: 1rem;
 }
 
+fieldset {
+	border: unset;
+}
+
 :root {
 	--clr-bright: #ffeed5;
 	--clr-brown: #6a4420;
