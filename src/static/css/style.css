@@ -185,12 +185,13 @@ body {
 .quality-bar {
 	display: flex;
 	gap: .5rem;
+	width: 100%;
 }
 
 .quality-bar input {
 	position: relative;
 	appearance: none;
-	width: 1.5rem;
+	width: 10%;
 	aspect-ratio: 1rem;
 	cursor: pointer;
 	border-radius: 99rem;
