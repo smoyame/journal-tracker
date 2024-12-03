@@ -136,7 +136,7 @@ body {
 
 .journal {
 	background-color: var(--clr-bright);
-	padding: min(6%, 2rem);
+	padding: min(5vw, 2.5rem);
 	border-radius: 3rem;
 }
 
@@ -148,10 +148,10 @@ body {
 
 .section-gallery {
 	background: var(--clr-tan);
-	padding: 1.5rem;
+	padding: min(3.5vw, 1.75rem);
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	gap: 1.25rem;
+	gap: min(2vw, 1rem);
 	border-radius: min(20vw, 1.75rem);
 }
 
