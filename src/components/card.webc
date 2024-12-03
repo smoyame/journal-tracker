@@ -1,6 +1,10 @@
 <article class="card" :id="name">
 	<header>
 		<h2 @text="title"></h2>
+		<div class="quality-bar">
+			<input type="checkbox" webc:for="quality of ['normal', 'shining', 'glistening', 'radiant', 'opulent', 'alpha']"
+				:data-quality="quality" @value="value">
+		</div>
 	</header>
 	<figure>
 		<img :src="source" alt="">
