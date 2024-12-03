@@ -172,7 +172,7 @@ body {
 .card-heading {
 	font-size: 1.75rem;
 	text-wrap: pretty;
-
+	text-align: center;
 }
 
 .card img {
@@ -186,6 +186,7 @@ body {
 	display: flex;
 	gap: .5rem;
 	width: 100%;
+	justify-content: center;
 }
 
 .quality-bar input {
