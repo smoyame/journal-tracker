@@ -37,3 +37,29 @@ img {
 	background-size: cover;
 	shape-margin: 1rem;
 }
+
+:root {
+	--clr-bright: #ffeed5;
+	--clr-brown: #6a4420;
+	--clr-dark: #101c31;
+	--clr-green: #5a755a;
+	--clr-tan: #d5aa73;
+	--clr-silver: #a49d9c;
+	--clr-teal: #008583;
+	--clr-yellow: #e69d00;
+	--clr-red: #cd0462;
+
+	--fg: var(--clr-brown);
+	--bg: var(--clr-bright);
+
+	--radius: 1em;
+
+	--es-cubic: cubic-bezier(0, .5, .5, 1);
+
+	color: var(--fg);
+
+	font-family: 'acpr', 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: .0625em;
+
+	transition: all 200ms ease;
+}
