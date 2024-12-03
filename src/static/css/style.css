@@ -159,7 +159,6 @@ body {
 	background-color: var(--bg);
 	border-radius: var(--radius);
 	padding: 1rem;
-	min-width: 200px;
 }
 
 .card header {
