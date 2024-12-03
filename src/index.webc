@@ -1,7 +1,7 @@
 ---
 layout: layout.webc
 ---
-<form class="form journal" method="POST">
+<form class="form journal-content" method="POST">
 	<div webc:nokeep webc:for="section of ['freshwater', 'saltwater', 'misc']">
 		<div class="journal-section" :id="section">
 			<h2 class="section-header visually-hidden" @text="section"></h2>
