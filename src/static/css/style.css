@@ -94,3 +94,10 @@ img {
 	--_clr-quality: var(--clr-red);
 	accent-color: var(--_clr-quality);
 }
+
+/* Base or Globals */
+
+.wrapper {
+	margin: 2rem auto;
+	max-width: 160ch;
+}
