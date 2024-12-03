@@ -171,6 +171,8 @@ body {
 
 .card-heading {
 	font-size: 1.75rem;
+	text-wrap: pretty;
+
 }
 
 .card img {
