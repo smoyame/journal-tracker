@@ -1,11 +1,11 @@
-<article class="card" :id="name">
-	<header>
+<article class="card" :data-card-subject="name">
+	<header class="card-header">
 		<h3 class="card-heading" @text="title">
 		</h3>
-		<div class="quality-bar">
+		<fieldset class="quality-bar" :id="name">
 			<input type="checkbox" webc:for="quality of ['normal', 'shining', 'glistening', 'opulent', 'radiant', 'alpha']"
 				:data-quality="quality" @value="value">
-		</div>
+		</fieldset>
 	</header>
 	<figure>
 		<img :src="source" alt="">
