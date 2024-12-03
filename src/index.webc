@@ -1,6 +1,11 @@
 ---
 layout: layout.webc
 ---
-<span>This is a test span.</span>
-<card webc:for="entry of journal" :@title="entry.title" :name="entry.name"
-	@attributes="({ source: `static/images/journal/${entry.section}/${entry.name}.png`})"></card>
+<form class="form journal" method="POST">
+	<div webc:nokeep webc:for="section of ['freshwater', 'saltwater', 'misc']">
+		<fieldset :id="section">
+			<card webc:for="entry of journal[section]" :@title="entry.title" :name="entry.name"
+				@attributes="({ source: `static/images/journal/${entry.section}/${entry.name}.png`})"></card>
+		</fieldset>
+	</div>
+</form>
