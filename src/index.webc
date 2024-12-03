@@ -2,4 +2,5 @@
 layout: layout.webc
 ---
 <span>This is a test span.</span>
-<card webc:for="entry of journal" :@title="entry.title" :value="entry.name"></card>
+<card webc:for="entry of journal" :@title="entry.title" :name="entry.name"
+	@attributes="({ source: `static/images/journal/${entry.section}/${entry.name}.png`})"></card>

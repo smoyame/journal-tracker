@@ -1,6 +1,8 @@
-<article class="card" :id="entry.name">
+<article class="card" :id="name">
 	<header>
-		<h2>
-			<slot webc:nokeep @text="title">Example Title</slot>
-		</h2>
+		<h2 @text="title"></h2>
+	</header>
+	<figure>
+		<img :src="source" alt="">
+	</figure>
 </article>
