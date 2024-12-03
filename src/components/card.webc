@@ -1,6 +1,6 @@
 <article class="card" :id="name">
 	<header>
-		<h3 @text="title">
+		<h3 class="card-heading" @text="title">
 		</h3>
 		<div class="quality-bar">
 			<input type="checkbox" webc:for="quality of ['normal', 'shining', 'glistening', 'opulent', 'radiant', 'alpha']"

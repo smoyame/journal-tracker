@@ -140,6 +140,10 @@ body {
 	gap: .5rem;
 }
 
+.card-heading {
+	font-size: 1.75rem;
+}
+
 .card img {
 	display: block;
 	margin-inline: auto;
