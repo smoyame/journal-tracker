@@ -21,7 +21,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "bass",
+		"name": "largemouth_bass",
 		"title": "Largemouth Bass",
 		"section": "freshwater",
 		"type": "lake",
@@ -42,7 +42,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "bullshark",
+		"name": "bull_shark",
 		"title": "Bull Shark",
 		"section": "freshwater",
 		"type": "lake",
@@ -126,7 +126,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "kingsalmon",
+		"name": "king_salmon",
 		"title": "King Salmon",
 		"section": "freshwater",
 		"type": "lake",
@@ -182,7 +182,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "rainbowtrout",
+		"name": "rainbow_trout",
 		"title": "Rainbow Trout",
 		"section": "freshwater",
 		"type": "lake",
@@ -259,7 +259,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "coalacanth",
+		"name": "coelacanth",
 		"title": "Coelacanth",
 		"section": "saltwater",
 		"type": "ocean",
@@ -294,7 +294,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "greatwhiteshark",
+		"name": "great_white_shark",
 		"title": "Great White Shark",
 		"section": "saltwater",
 		"type": "ocean",
@@ -343,7 +343,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "manowar",
+		"name": "man_o_war",
 		"title": "Man O' War",
 		"section": "saltwater",
 		"type": "ocean",
@@ -413,7 +413,7 @@
 		"prefix_class": "fish"
 	},
 	{
-		"name": "stingray",
+		"name": "sting_ray",
 		"title": "Sting Ray",
 		"section": "saltwater",
 		"type": "ocean",
@@ -532,7 +532,7 @@
 		"prefix_class": "wtrash"
 	},
 	{
-		"name": "sodacan",
+		"name": "soda_can",
 		"title": "Soda Can",
 		"section": "misc",
 		"type": "trash",
