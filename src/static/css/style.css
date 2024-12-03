@@ -125,7 +125,7 @@ body {
 
 .wrapper {
 	margin-inline: auto;
-	margin-block-start: 2rem;
+	margin-block: 2rem;
 	width: min(180ch, calc(100% - 2rem))
 }
 
